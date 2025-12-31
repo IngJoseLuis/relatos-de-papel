@@ -1,0 +1,26 @@
+@import './variables.css';
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #ffe9e9, #574444)
+}
+
+
+.app--dark {
+    background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

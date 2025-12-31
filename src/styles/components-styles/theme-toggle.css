@@ -1,0 +1,14 @@
+.theme-toggle {
+    border: none;
+    background: transparent;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.15s ease;
+}
+
+.theme-toggle:hover {
+    opacity: 1;
+}

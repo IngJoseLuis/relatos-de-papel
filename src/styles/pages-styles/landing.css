@@ -1,0 +1,79 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.landing__hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.landing__logo {
+    height: 80px;
+    margin-bottom: 1.5rem;
+}
+
+.landing__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.landing__subtitle {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    opacity: 0.85;
+}
+
+.landing__section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.landing__section-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.landing__text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+.landing__features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .landing__features {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.landing__feature {
+    padding: 1.8rem;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.landing__feature-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.landing__feature-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
